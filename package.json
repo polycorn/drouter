@@ -1,7 +1,7 @@
 {
 	"name":"drouter",
 	"description":" A node.js directory-driven router for connect/express",
-	"version":"0.1.0",
+	"version":"0.1.1",
 	"author":"Polycorn <polycorn@users.noreply.github.com>",
 	"licence":"MIT",
 	"engines":{
@@ -10,5 +10,9 @@
 	"scripts":{
 		"test":"node ./test/test_001.js"
 	},
-	"main":"./lib/drouter.js"
+	"main":"./lib/drouter.js",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/polycorn/drouter.git"
+	}
 }
